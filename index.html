@@ -5,47 +5,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Justus Massmann - personal Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header>
     <h1>Justus Massmann</h1>
     <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
+      <a href="#contact" class="button">Contact</a>
+      <a href="#biography" class="button">Biography</a>
+      <a href="#degrees" class="button">Degrees</a>
+      <a href="#profiles" class="button">Profiles</a>
     </nav>
   </header>
   <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="profile picture">
-    <figcaption>This is my profile picture for my personal website.</figcaption>
+    <img src="https://source.unsplash.com/random/300x300" class="profilepicture" alt="profile picture" width="300" height="300">
+    <figcaption>My profile picture</figcaption>
   </figure>
 
   <section>
    <h2>Skills</h2>
     <ul>
-      <li>Agile Project Management</li>
       <li>Scrum</li>
+      <li>Agile Project Management</li>
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
      </ul>
-  </section>
 
-  <section>
-    <h2>Soft Skills</h2>
-      <ul>
-       <li>Teamwork</li>
-       <li>Communication</li>
-       <li>Creativity</li>
-       <li>Adaptability</li>
-      </ul>
+  <h2>Soft Skills</h2>
+    <ul>
+      <li>Teamwork</li>
+      <li>Communication</li>
+      <li>Creativity</li>
+      <li>Adaptability</li>
+    </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
+    <p>E-Mail: <a href="mailto:justusmassmann@online.de" class="mail">justusmassmann@online.de</a></p>
+    <p>Phone: +49 1512 3456789</p>
   </section>
   <section id="biography">
     <h2>Biography</h2>
+    <p class="bio">In 2014 I graduated from high school to start my apprenticeship at a bank.
+       In addation to my apprenticeship I also started my studies in finance.<br>
+       After my apprenticeship I worked in the sales management department for almost three and a half years and later on half a year as a project manager.<br>
+       After working almost seven and a half years at a bank, I decided to quit my job to start a web development course at <a href="https://www.neuefische.de" class="neuefische">neuefische</a> to become a junior web developer. 
+    </p>
+  </section>
+
+  <section id="profiles">
+    <h2>Profiles</h2>
+      <ul>
+        <li>Linkedin</li>
+      </ul>
+  </section>
+  <section id="degrees">
+    <h2>Degrees</h2>
   </section>
 </body>
 
