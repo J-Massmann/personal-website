@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.459);
     font-size: 1rem;
     font-family: sans-serif;
     line-height: 1,5;
@@ -41,12 +41,22 @@ nav{
     color: rgba(255, 255, 255, 0.719);
 }
 
+.spacer {
+    border-bottom: 1px solid rgba(0,0,0, 40%);
+    margin: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
 .profilepicture{
     border-radius: 50%;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height:auto;
 }
 
 figcaption{
@@ -57,7 +67,12 @@ figcaption{
 }
 
 figure{
-    border-bottom: 1px solid rgba(0,0,0, 40%);
+    margin: 3em;
+}
+
+main {
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .neuefische {
@@ -65,13 +80,9 @@ figure{
 }
 
 section{
-    border-bottom: 1px solid rgba(0,0,0, 40%);
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#contact {
-    border-bottom: none;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2{
@@ -88,7 +99,6 @@ h2{
     gap: 0.7em;
 }
 
-
 .skill-tags{
     border: 1px solid black;
     padding: 6px;
@@ -98,6 +108,29 @@ h2{
 .skill-tags:hover{
     background-color: rgba(255, 255, 255, 0.637);
     box-shadow: 2px 2px 8px rgba(0,0,0, 50%);
+}
+
+.profile-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.profile-box{
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 1em;
+    box-shadow: 2px 2px 8px rgba(0,0,0, 50%);
+    max-width: 250px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.profile-box img{
+    width:120;
+    height: 120;
 }
 
 .mail:hover {
@@ -134,7 +167,6 @@ h2{
     text-align: center;
     font-size: 0.8rem;
 }
-
 
 div a{
     text-decoration: none;
