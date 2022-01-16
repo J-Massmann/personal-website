@@ -157,6 +157,32 @@ h2{
     height: 120;
 }
 
+.stations{
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(201, 201, 201);
+}
+
+table{
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+}
+
+.table-header{
+    font-style: ;
+}
+
+td{
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+}
+
 .mail:hover {
     color: black;
     background-color: rgba(255, 255, 255, 0.637);
