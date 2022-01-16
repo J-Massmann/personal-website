@@ -30,7 +30,10 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: rgba(78, 78, 78, 0.479);
+    position: sticky;
+    z-index: 2;
+    top: 0;
 }
 
 h1{
@@ -53,7 +56,6 @@ nav{
     min-width: 100px;
     min-height: 20px;
     padding: 2em;
-    background-color: grey;
     text-decoration: none;
     text-align: center;
 }
