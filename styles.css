@@ -72,6 +72,21 @@ nav{
     max-width: 80%;
 }
 
+main{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.bio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bio-text{
+    max-width: 50%;
+}
+
 .profilepicture{
     border-radius: 50%;
     display: flex;
@@ -82,20 +97,8 @@ nav{
     height:auto;
 }
 
-figcaption{
-    text-align: center;
-    font-size: 0.8em;
-    font-style: italic;
-    margin: 10px auto;
-}
-
 figure{
     margin: 3em;
-}
-
-main {
-    padding-left: 3em;
-    padding-right: 3em;
 }
 
 .neuefische {
@@ -157,9 +160,14 @@ h2{
     height: 120;
 }
 
+#cv h3{
+    padding: 1em;
+    margin: 0;
+}
+
 .stations{
     position: relative;
-    width: 75%;
+    max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(201, 201, 201);
@@ -173,14 +181,20 @@ table{
     border-collapse: separate;
 }
 
-.table-header{
-    font-style: ;
+.left-td{
+    min-width: 30%;
+}
+
+.header-table{
+    font-weight: bold;
 }
 
 td{
     border-radius: 5px;
     background: white;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mail:hover {
