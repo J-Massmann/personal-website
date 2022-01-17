@@ -1,0 +1,20 @@
+.profile__box {
+  border: 1px solid rgba(0, 0, 0, 0.637);
+  border-radius: 15px;
+  background-color: var(--color-cream-white);
+  padding: 1em;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 50%);
+  max-width: 250px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.profile__image {
+  width: 120;
+  height: 120;
+  filter: grayscale(1);
+}
+
+.profile__image {
+  filter: none;
+}

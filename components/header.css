@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--color-dark-gray);
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  width: 80%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-right: auto;
+  padding-left: 1em;
+  color: var(--color-cream-white);
+}

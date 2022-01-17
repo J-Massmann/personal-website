@@ -1,0 +1,20 @@
+.skill {
+  line-height: 1.4;
+  margin: -0.5em auto 0.5em -2.3em;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.7em;
+}
+
+.skill__li {
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: rgb(185, 185, 185);
+}
+.skill__li:hover {
+  background-color: rgba(255, 255, 255, 0.637);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 50%);
+}
