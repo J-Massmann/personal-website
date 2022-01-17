@@ -2,22 +2,10 @@
   box-sizing: border-box;
 }
 
-.page-background {
-  background-color: rgba(211, 211, 211, 0.459);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
 body {
-  background-color: rgba(231, 227, 227, 0.767);
   font-size: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-  width: 80%;
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
 }
 
 h1,
@@ -38,6 +26,10 @@ header {
   position: sticky;
   z-index: 2;
   top: 0;
+  width: 80%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -74,6 +66,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgba(231, 227, 227, 0.767);
+  width: 80%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -1em;
 }
 
 #biography {
@@ -98,17 +96,20 @@ figure {
   margin: 3em;
 }
 
-.spacer {
+/* .spacer {
   border-bottom: 1px solid rgba(0, 0, 0, 40%);
-  margin: 3em;
-  margin-left: auto;
-  margin-right: auto;
+  height: 1px;
   max-width: 80%;
-}
+  margin: 3em;
+} */
 
 main {
-  margin-left: 1em;
-  margin-right: 1em;
+  background-color: rgba(231, 227, 227, 0.767);
+  width: 80%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }
 
 section {
@@ -191,12 +192,12 @@ table {
   border-collapse: separate;
 }
 
-.left-td {
-  min-width: 30%;
+#cv h4 {
+  margin: 0;
 }
 
-.header-table {
-  font-weight: bold;
+.left-td {
+  min-width: 30%;
 }
 
 td {
