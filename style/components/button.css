@@ -11,3 +11,9 @@
   color: rgba(255, 255, 255, 0.719);
   transition: 0.4s;
 }
+
+.button--big {
+  min-width: 200px;
+  min-height: 40px;
+  font-weight: 500;
+}
