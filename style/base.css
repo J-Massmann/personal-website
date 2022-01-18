@@ -21,6 +21,11 @@ h2 {
   margin-top: 1rem;
 }
 
+hr {
+  max-width: 70%;
+  border: 1px solid rgba(0, 0, 0, 40%);
+}
+
 main {
   background-color: var(--color-light-gray);
   width: 80%;
