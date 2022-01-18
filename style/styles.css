@@ -1,0 +1,18 @@
+@import "./colors.css";
+@import "./base.css";
+@import "./utility.css";
+@import "./components/header.css";
+@import "./components/button.css";
+@import "./components/nav-bar.css";
+@import "./components/biography.css";
+@import "./components/skill.css";
+@import "./components/profile.css";
+@import "./components/cv.css";
+@import "./components/contact.css";
+
+/* .spacer {
+  border-bottom: 1px solid rgba(0, 0, 0, 40%);
+  height: 1px;
+  max-width: 80%;
+  margin: 3em;
+} */

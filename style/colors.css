@@ -1,0 +1,7 @@
+:root {
+  --color-light-gray: rgba(231, 227, 227, 0.767);
+  --color-dark-gray: rgba(78, 78, 78, 0.479);
+  --color-cream-white: rgba(255, 255, 255, 0.795);
+  --color-gray: rgb(201, 201, 201);
+  --color-light-gray-transparent: rgba(255, 255, 255, 0.637);
+}
